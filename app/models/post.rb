@@ -9,3 +9,7 @@ def categories_attributes=(categories_attributes)
     if !self.categories.include?(category)
       self.post_categories.build(:category => category)
 end
+ end
+    end
+  end
+end
